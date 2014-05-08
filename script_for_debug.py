@@ -5,7 +5,7 @@ def is_prime_number(value):
         if value % i == 0:
             is_prime = False
             break
-        i = i + 1
+        i += 1
     return is_prime
 
 i = 0
